@@ -19,4 +19,4 @@ st.markdown("**Central question:**")
 st.markdown("*How does team performance differ between the two seasons?*")
 
 st.altair_chart(chart_season_comp(team_season), use_container_width=True)
-st.caption("Takeaway: ..")
+st.caption("Takeaway: The teams are organized in terms of who scored the higest with regards to the metric in place. Some teams show improvements throughout the seasons, across teams, but for the most part we can expect the 'rank' of each team to be reflected in other metrics and graphs.")
