@@ -4,8 +4,8 @@ import pandas as pd
 @st.cache_data
 def load_epl() -> pd.DataFrame:
     # load csv
-    epl_2324 = pd.read_csv("Pl-season-2324.csv")
-    epl_2425 = pd.read_csv("Pl-season-2425.csv")
+    epl_2324 = pd.read_csv("PL-season-2324.csv")
+    epl_2425 = pd.read_csv("PL-season-2425.csv")
     # season labels
     epl_2324["season"] = "2023-2024"
     epl_2425["season"] = "2024-2025"
